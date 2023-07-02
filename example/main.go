@@ -50,6 +50,7 @@ func explorer() {
 
 	// 处理响应结果
 	// ...
+	fmt.Printf("get Resp data:%v\n",resp.Body)
 
 	fmt.Println("Request completed successfully.")
 }
