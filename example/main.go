@@ -4,7 +4,6 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"net/http"
 
 	go1inch "github.com/jon4hz/go-1inch"
 )
