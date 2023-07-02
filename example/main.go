@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	explorer()
+	ordi()
 }
 
 func ordi(){
