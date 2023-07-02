@@ -27,6 +27,7 @@ const (
 	Fantom      Network = "fantom"
 	Klaytn      Network = "klaytn"
 	Auror       Network = "auror"
+	ZkSync      Network = "zksync"
 )
 
 var (
@@ -41,6 +42,7 @@ var (
 		Fantom:      "250",
 		Klaytn:      "8217",
 		Auror:       "1313161554",
+		ZkSync:      "324",
 	}
 )
 
