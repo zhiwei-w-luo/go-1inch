@@ -90,12 +90,6 @@ func (c *Client) doRequest(ctx context.Context, net Network, endpoint, method st
 	if err != nil {
 		return 0, err
 	}
-
-	// 设置请求头，模拟浏览器行为
-	req.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36")
-	req.Header.Set("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8")
-	req.Header.Set("Accept-Language", "en-US,en;q=0.5")
-
 	resp, err := c.Http.Do(req)
 	if err != nil {
 		return 0, err
