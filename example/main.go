@@ -70,8 +70,6 @@ func explorer() {
 		}
 		fmt.Printf("Request completed successfully.Code:%d\n", resp.StatusCode)
 		fmt.Printf("Request resp.Header:%v\n",resp.Header)
-
-		fmt.Println(client.Tokens(context.Background(), "zkSync"))
 		return
 
 	default:
